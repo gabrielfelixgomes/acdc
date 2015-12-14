@@ -1,0 +1,9 @@
+body {
+      background: url('img/rc.jpg') no-repeat no-repeat;
+      background-size: 100%;
+      background-attachment: fixed;
+    }
+
+a, a:hover, a:active {
+    color: #2980b9;
+}
