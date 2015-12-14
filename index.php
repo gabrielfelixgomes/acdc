@@ -36,10 +36,10 @@
     <!--Metas Facebook-->
     <meta property="og:locale" content="pt_BR">
     <meta property="og:url" content="http://antescenidepoisceni.com.br/">
-    <meta property="og:title" id="compartilha" content=">Hoje é dia <?php echo $intervalo->d; ?> do mês <?php echo $intervalo->m; ?> do ano <?php echo $intervalo->y; ?>, depois do M1to AC-DC Antes de CENI, depois de CENI #M1TO #SPFC">
+    <meta property="og:title" id="compartilha" content="Hoje é dia <?php echo $intervalo->d; ?> do mês <?php echo $intervalo->m; ?> do ano <?php echo $intervalo->y; ?>, depois do M1to AC-DC Antes de CENI, depois de CENI #M1TO #SPFC">
     <meta property="og:site_name" content="http://antescenidepoisceni.com.br/">
     <meta property="og:description" content="Antes de CENI, depois de CENI #M1TO #SPFC - Data depois do M1to">
-    <meta property="og:image" content="img/rc.png">
+    <meta property="og:image" content="img/rc.jpg">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:type" content="website">
     <meta property="article:author" content="http://antescenidepoisceni.com.br/">

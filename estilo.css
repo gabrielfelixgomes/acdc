@@ -33,3 +33,18 @@ a, a:hover, a:active {
 #dia, #mes, #ano{
 	display: inline-block;
 }
+
+@media(max-width: 768px) {
+	body {
+      background: url('img/rc.jpg') no-repeat no-repeat;
+      background-size: 100%;
+      background-attachment: fixed;
+      background-repeat: repeat-y;
+    }
+    #container{
+    	width: 496px;
+		margin: 0 auto;
+		height: 100%;
+	}
+
+}
