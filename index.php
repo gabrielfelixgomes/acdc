@@ -45,36 +45,66 @@
 
   <body>
 
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '1514477688846912',
-      xfbml      : true,
-      version    : 'v2.5'
-    });
-  };
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '1514477688846912',
+        xfbml      : true,
+        version    : 'v2.5'
+      });
+    };
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-
-
-<div
-  class="fb-like"
-  data-share="true"
-  data-width="450"
-  data-show-faces="true">
-</div>
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
 
 
+  <?php
+    $data1 = new DateTime( '2015-12-11' );
+    $data2 = new DateTime( 'NOW' );
+    $intervalo = $data1->diff( $data2 );
+    //echo "Intervalo é de {$intervalo->y} anos, {$intervalo->m} meses e {$intervalo->d} dias"; 
+  ?>
+
+  <div id="container">
+
+    <div id="hashtag">
+      <h1>#AntesDeCENIdepoisDeCENI</h1>
+      <h2>#M1TO #RC #SPFC</h2> 
+    </div>
+
+    <div id="contador">
+      <div id="dia">
+        <span class="data">0<?php echo $intervalo->d; ?> /</span>
+        <span class="nome">DIA</span>
+      </div> 
+      <div id="dia">
+        <span class="data">00 /</span>
+        <span class="nome">MÊS</span>
+      </div> 
+      <div id="dia">
+        <span class="data">0000</span>
+        <span class="nome">ANO</span>
+      </div> 
+    </div>
+
+    <hr>
+
+    <div
+      class="fb-like"
+      data-share="true"
+      data-width="450"
+      data-show-faces="true">
+    </div>
+
+  </div>
 
   </body>
-
 
   <script src="script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
