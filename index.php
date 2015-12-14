@@ -1,19 +1,26 @@
+  <?php
+    $data1 = new DateTime( '2015-12-11' );
+    $data2 = new DateTime( 'NOW' );
+    $intervalo = $data1->diff( $data2 );
+    //echo "Intervalo é de {$intervalo->y} anos, {$intervalo->m} meses e {$intervalo->d} dias"; 
+  ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Antes de CENI, depois de CENI #M1TO #SPFC</title>
-    <meta name="description" content="Calcule a porcentagem de anjo e de safadeza que há em você!" />
-    <meta name="keywords" content="safadometro, wesley, wesley safadao, safadao, anjo, vagabundo, teste" />
+    <title>Hoje é dia <?php echo $intervalo->d; ?> do mês <?php echo $intervalo->m; ?> do ano <?php echo $intervalo->y; ?>, depois do M1to AC-DC Antes de CENI, depois de CENI #M1TO #SPFC</title>
+    <meta name="description" content="Antes de CENI, depois de CENI #M1TO #SPFC - Data depois do M1to" />
+    <meta name="keywords" content="antescenidepoisceni, acdc, rogerio ceni, ceni, aposentadoria, mito, m1to, spfc, sao paulo, sao paulofc" />
     <meta http-equiv="Content-Language" content="pt-br" />
     <meta http-equiv="Cache-Control" content="" />
     <meta http-equiv="Pragma" content="" />
     <meta http-equiv="expires" content="1 day" />
     <meta name="robots" content="index,follow" />
-    <meta name="copyright" content="Copyright © 2015 - http://safadometro.com.br/ - Todos os Direitos safados" />
-    <meta name="organization" content="safadometro.com.br" />
+    <meta name="copyright" content="Copyright © 2015 - http://antescenidepoisceni.com.br/ - Todos os Direitos" />
+    <meta name="organization" content="antescenidepoisceni.com.br" />
     <meta name="location" content="Sao Paulo, Brazil" />
     <link href="img/favicon.ico" rel="icon" />
     <link rel="stylesheet" href="estilo.css">
@@ -28,17 +35,17 @@
 
     <!--Metas Facebook-->
     <meta property="og:locale" content="pt_BR">
-    <meta property="og:url" content="http://safadometro.com.br/">
-    <meta property="og:title" id="compartilha" content="SAFADÔMETRO - Sou Calcule a porcentagem de anjo e de safadeza que há em você!">
-    <meta property="og:site_name" content="http://safadometro.com.br/">
-    <meta property="og:description" content="SAFADÔMETRO - Calcule a porcentagem de anjo e de safadeza que há em você!">
-    <meta property="og:image" content="ws2.png">
+    <meta property="og:url" content="http://antescenidepoisceni.com.br/">
+    <meta property="og:title" id="compartilha" content=">Hoje é dia <?php echo $intervalo->d; ?> do mês <?php echo $intervalo->m; ?> do ano <?php echo $intervalo->y; ?>, depois do M1to AC-DC Antes de CENI, depois de CENI #M1TO #SPFC">
+    <meta property="og:site_name" content="http://antescenidepoisceni.com.br/">
+    <meta property="og:description" content="Antes de CENI, depois de CENI #M1TO #SPFC - Data depois do M1to">
+    <meta property="og:image" content="img/rc.png">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:type" content="website">
-    <meta property="article:author" content="http://safadometro.com.br/">
-    <meta property="article:publisher" content="https://www.facebook.com/Safadometrocombr-1647163345532715/">
+    <meta property="article:author" content="http://antescenidepoisceni.com.br/">
+    <meta property="article:publisher" content="https://www.facebook.com/antescenidepoisceni">
     <meta property="article:section" content="Entretenimento">
-    <meta property="article:tag" content="safadometro, wesley, wesley safadao, safadao, anjo, vagabundo, teste">
+    <meta property="article:tag" content="antescenidepoisceni, acdc, rogerio ceni, ceni, aposentadoria, mito, m1to, spfc, sao paulo, sao paulofc">
     <!--Metas Facebook-->
 
   </head>
@@ -63,14 +70,6 @@
      }(document, 'script', 'facebook-jssdk'));
   </script>
 
-
-  <?php
-    $data1 = new DateTime( '2015-12-11' );
-    $data2 = new DateTime( 'NOW' );
-    $intervalo = $data1->diff( $data2 );
-    //echo "Intervalo é de {$intervalo->y} anos, {$intervalo->m} meses e {$intervalo->d} dias"; 
-  ?>
-
   <div id="container">
 
     <div id="hashtag">
@@ -94,13 +93,16 @@
     </div>
 
     <hr>
+    <a href="http://www.facebook.com/sharer/sharer.php?u=http://antescenidepoisceni.com.br/" class="share-popup" target="_blank"><img src="img/face.png"></a>
 
+    <hr>
     <div
       class="fb-like"
       data-share="true"
       data-width="450"
       data-show-faces="true">
     </div>
+
 
   </div>
 
