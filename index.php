@@ -83,11 +83,11 @@
         <span class="nome">DIA</span>
       </div> 
       <div id="dia">
-        <span class="data">00 /</span>
+        <span class="data"><?php echo $intervalo->m; ?> /</span>
         <span class="nome">MÊS</span>
       </div> 
       <div id="dia">
-        <span class="data">0000</span>
+        <span class="data">000<?php echo $intervalo->y; ?></span>
         <span class="nome">ANO</span>
       </div> 
     </div>
